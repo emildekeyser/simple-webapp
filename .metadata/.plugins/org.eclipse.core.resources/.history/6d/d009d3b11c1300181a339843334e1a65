@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="r0599128_clientserver">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <property name="context-root" value="r0599128_clientserver"/>
+        <property name="java-output-path" value="/r0599128_clientserver/build/classes"/>
+    </wb-module>
+</project-modules>
