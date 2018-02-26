@@ -1,9 +1,6 @@
-INDEX VERSION 1.4+/media/user1/data/Documents/web2-eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-480344338.index
-480344338.index
-3595807859.index
-2811871811.index
-1836091723.index
-4160753487.index
-1133011425.index
+INDEX VERSION 1.4+/media/user1/data/Documents/web2/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+4076554157.index
 2537076616.index
+1231766520.index
+1811027479.index
+2516161980.index

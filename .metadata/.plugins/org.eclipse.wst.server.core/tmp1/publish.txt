@@ -1,3 +1,6 @@
 #Tomcat publish data
-#Fri Feb 16 15:07:57 CET 2018
+#Sat Feb 24 16:10:24 CET 2018
 org.eclipse.jst.jee.server\:r0599128_clientserver=/home/user1/apache-tomcat-8.5.28/wtpwebapps/r0599128_clientserver
+org.eclipse.jst.jee.server\:Labo2_Debugging_Quote_Error2=/home/user1/apache-tomcat-8.5.28/wtpwebapps/Labo2_Debugging_Quote_Error2
+org.eclipse.jst.jee.server\:Labo2_Debugging_Quote_Error1=/home/user1/apache-tomcat-8.5.28/wtpwebapps/Labo2_Debugging_Quote_Error1
+org.eclipse.jst.jee.server\:r0599128_servlet=/home/user1/apache-tomcat-8.5.28/wtpwebapps/r0599128_servlet
