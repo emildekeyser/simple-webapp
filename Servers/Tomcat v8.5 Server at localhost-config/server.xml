@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="r0599128_clientserver" path="/r0599128_clientserver" reloadable="true" source="org.eclipse.jst.jee.server:r0599128_clientserver"/><Context docBase="r0599128_servlet" path="/r0599128_servlet" reloadable="true" source="org.eclipse.jst.jee.server:r0599128_servlet"/><Context docBase="Labo2_Debugging_Quote_Error1" path="/Labo2_Debugging_Quote_Error1" reloadable="true" source="org.eclipse.jst.jee.server:Labo2_Debugging_Quote_Error1"/><Context docBase="Labo2_Debugging_Quote_Error2" path="/Labo2_Debugging_Quote_Error2" reloadable="true" source="org.eclipse.jst.jee.server:Labo2_Debugging_Quote_Error2"/></Host>
+      <Context docBase="r0599128_Labo3bOpdracht2" path="/r0599128_Labo3bOpdracht2" reloadable="true" source="org.eclipse.jst.jee.server:r0599128_Labo3bOpdracht2"/><Context docBase="r0599128_Labo3bOpdracht1" path="/r0599128_Labo3bOpdracht1" reloadable="true" source="org.eclipse.jst.jee.server:r0599128_Labo3bOpdracht1"/></Host>
     </Engine>
   </Service>
 </Server>
