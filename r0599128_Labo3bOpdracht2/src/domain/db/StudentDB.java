@@ -14,32 +14,34 @@ public class StudentDB implements Iterable<Student>
 	{
 		this.studenten = new ArrayList<Student>();
 
-		this.studenten.add(new Student("Jongen", "Greetje", 23, "Toegepaste Informatica"));
+		this.studenten.add(
+				new Student("Jongen", "Greetje", 23, "Toegepaste Informatica"));
 		this.studenten.add(new Student("Melaerts", "Kristien", 21, "Chemie"));
 		this.studenten.add(new Student("Steegmans", "Elke", 16, "Vroedkunde"));
 		this.studenten.add(new Student("Van Hee", "Jan", 18, "Verpleegkunde"));
 	}
-	
+
 	public static StudentDB theDB()
 	{
 		if (uniqueDB == null)
 		{
 			uniqueDB = new StudentDB();
 		}
-		
+
 		return uniqueDB;
 	}
-	
+
 	public Student SearchStudent(String voornaam, String achternaam)
 	{
 		for (Student student : studenten)
 		{
-			if (student.getVoornaam() == voornaam && student.getAchternaam() == achternaam)
+			if (student.getVoornaam().equals(voornaam)
+					&& student.getAchternaam().equals(achternaam))
 			{
 				return student.Clone();
 			}
 		}
-		
+
 		return null;
 	}
 
@@ -48,7 +50,7 @@ public class StudentDB implements Iterable<Student>
 	{
 		return new StudentIterator();
 	}
-	
+
 	public class StudentIterator implements Iterator<Student>
 	{
 		private int i;
@@ -57,7 +59,7 @@ public class StudentDB implements Iterable<Student>
 		{
 			i = 0;
 		}
-		
+
 		@Override
 		public boolean hasNext()
 		{

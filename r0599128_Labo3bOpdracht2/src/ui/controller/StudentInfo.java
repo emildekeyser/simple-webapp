@@ -38,11 +38,6 @@ public class StudentInfo extends HttpServlet
 		String achternaam = request.getParameter("naam");
 		String voornaam = request.getParameter("voornaam");
 		
-		System.out.println("achternaam:");
-		System.out.println(achternaam);
-		System.out.println("voornaam:");
-		System.out.println(voornaam);
-		
 		Student st = StudentDB.theDB().SearchStudent(voornaam, achternaam);
 		
 		if(st == null)
