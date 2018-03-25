@@ -16,15 +16,14 @@
     <nav>
         <ul>
             <li class="hier"><a href="index.jsp">Overzicht</a></li>
-            <li><a href="tabel.jsp">Tabel</a></li>
+            <li><a href="servlet">Tabel</a></li>
             <li><a href="voeg_toe.jsp">Voeg toe</a></li>
         </ul>
     </nav>
 
     <main>
         <section>
-        	<%! FluidContainerDB db = new FluidContainerDB(); %>
-            <p>gemiddelde alle emmers: <%= db.averageFilled() %>L</p>
+            <p>gemiddelde alle emmers: <%= new FluidContainerDB().averageFilled() %>L</p>
         </section>
         <section>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio quod quae voluptas ullam? Inventore tenetur eos, expedita suscipit dolore laudantium asperiores dolorem enim porro optio! Repudiandae cupiditate velit doloribus sapiente.

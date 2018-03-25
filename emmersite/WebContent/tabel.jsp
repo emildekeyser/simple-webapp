@@ -1,3 +1,4 @@
+<%@page import="java.util.ArrayList"%>
 <%@page import="org.apache.jasper.tagplugins.jstl.core.ForEach"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="domain.db.FluidContainerDB" %>
@@ -18,7 +19,7 @@
     <nav>
         <ul>
             <li><a href="index.jsp">Overzicht</a></li>
-            <li class="hier"><a href="tabel.jsp">Tabel</a></li>
+            <li class="hier"><a href="servlet">Tabel</a></li>
             <li><a href="voeg_toe.jsp">Voeg toe</a></li>
         </ul>
     </nav>
@@ -33,8 +34,7 @@
                 <th>Contains</th>
             </tr>
            
-           <%! FluidContainerDB db = new FluidContainerDB(); %>
-           <% for(FluidContainer container : db.getContainers()){ %>
+           <% for(FluidContainer container : (ArrayList<FluidContainer>)request.getAttribute("db")){ %>
            		<tr>
            			<td><%= container.getType() %></td>
            			<td><%= container.getMaterial() %></td>

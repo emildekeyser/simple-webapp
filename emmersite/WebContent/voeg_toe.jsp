@@ -16,13 +16,13 @@
     <nav>
         <ul>
             <li><a href="index.jsp">Overzicht</a></li>
-            <li><a href="tabel.jsp">Tabel</a></li>
+            <li><a href="servlet">Tabel</a></li>
             <li class="hier"><a href="voeg_toe.jsp">Voeg toe</a></li>
         </ul>
     </nav>
 
     <main>
-       <form action="AddContainerToDB" method="get">
+       <form action="servlet" method="post">
            <label for="type">Type</label> 
            <input type="text" name="type" id="type"/>
            <!-- <select name="type" id="type">
@@ -47,6 +47,14 @@
 
             <input type="submit" value="Voeg toe">
        </form>
+       <!-- VALIDATIE LATER -->
+       <%-- <% int gelukt = (int)request.getAttribute("gelukt"); %>
+       <% if(gelukt > 0) {%>
+       		<p style="color: green">Toegevoegd</p>
+       <% }%>
+       <% if(gelukt < 0) {%>
+       		<p style="color: red">Fout! kon niet toevoegen.</p>
+       <% } %> --%>
     </main>
 
 </body>

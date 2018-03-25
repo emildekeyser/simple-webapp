@@ -66,7 +66,7 @@ public class FluidContainerDB
 		return avg / containers.size();
 	}
 	
-	public void add(FluidContainer container)
+	public void addContainer(FluidContainer container)
 	{
 		this.containers.add(container);
 	}

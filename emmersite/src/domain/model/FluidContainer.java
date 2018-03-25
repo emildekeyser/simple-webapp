@@ -73,4 +73,22 @@ public class FluidContainer
 	{
 		this.contains = contains;
 	}
+	
+//	public boolean valid()
+//	{
+//		boolean fail = true;
+//		fail = this.type == null
+//			|| this.material == null
+//			|| this.capacityInLiters <= 0
+//			|| this.contentsInLiters < 0
+//			|| this.capacityInLiters > this.contentsInLiters
+//			|| this.contains == null;
+//		if (!fail)
+//		{
+//			fail = this.type.isEmpty()
+//				|| this.material.isEmpty()
+//				|| this.contains.isEmpty();
+//		}
+//		return !fail;
+//	}
 }
