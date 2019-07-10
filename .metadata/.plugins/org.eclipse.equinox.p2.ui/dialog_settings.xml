@@ -19,13 +19,20 @@
 		<item value="false" key="FilterOnEnv"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.WizardSettings">
-		<item value="874" key="DIALOG_WIDTH"/>
-		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="591" key="DIALOG_HEIGHT"/>
-		<item value="509" key="DIALOG_X_ORIGIN"/>
-		<item value="158" key="DIALOG_Y_ORIGIN"/>
+		<item value="860" key="DIALOG_WIDTH"/>
+		<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="525" key="DIALOG_HEIGHT"/>
+		<item value="510" key="DIALOG_X_ORIGIN"/>
+		<item value="295" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.ResolutionResultsPage">
+		<item value="200" key="DetailsSashWeight"/>
+		<item value="400" key="NameColumnWidth"/>
+		<item value="200" key="VersionColumnWidth"/>
+		<item value="200" key="IDColumnWidth"/>
+		<item value="800" key="ListSashWeight"/>
+	</section>
+	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.ResolutionResultsPage">
 		<item value="200" key="DetailsSashWeight"/>
 		<item value="400" key="NameColumnWidth"/>
 		<item value="200" key="VersionColumnWidth"/>
@@ -38,5 +45,12 @@
 		<item value="784" key="DIALOG_HEIGHT"/>
 		<item value="443" key="DIALOG_X_ORIGIN"/>
 		<item value="74" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.SelectableIUsPage">
+		<item value="200" key="DetailsSashWeight"/>
+		<item value="420" key="NameColumnWidth"/>
+		<item value="140" key="VersionColumnWidth"/>
+		<item value="286" key="IDColumnWidth"/>
+		<item value="800" key="ListSashWeight"/>
 	</section>
 </section>
